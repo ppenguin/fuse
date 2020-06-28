@@ -22,9 +22,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/ppenguin/fuse"
+	"github.com/ppenguin/fuse/fuseops"
+	"github.com/ppenguin/fuse/fuseutil"
 	"github.com/jacobsa/syncutil"
 	"golang.org/x/sys/unix"
 )

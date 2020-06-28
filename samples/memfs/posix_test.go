@@ -26,7 +26,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/jacobsa/fuse/fusetesting"
+	"github.com/ppenguin/fuse/fusetesting"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 )

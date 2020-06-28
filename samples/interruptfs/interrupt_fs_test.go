@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/interruptfs"
+	"github.com/ppenguin/fuse/fuseutil"
+	"github.com/ppenguin/fuse/samples"
+	"github.com/ppenguin/fuse/samples/interruptfs"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 )

@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/cachingfs"
+	"github.com/ppenguin/fuse/fuseutil"
+	"github.com/ppenguin/fuse/samples"
+	"github.com/ppenguin/fuse/samples/cachingfs"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 	"github.com/jacobsa/timeutil"
