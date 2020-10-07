@@ -22,10 +22,10 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/jacobsa/syncutil"
 	"github.com/ppenguin/fuse"
 	"github.com/ppenguin/fuse/fuseops"
 	"github.com/ppenguin/fuse/fuseutil"
-	"github.com/jacobsa/syncutil"
 	"golang.org/x/sys/unix"
 )
 
@@ -379,7 +379,7 @@ func (fs *memFS) CreateFile(
 	fs.mu.Lock()
 	defer fs.mu.Unlock()
 
-	var err error
+	// var err error
 	op.Entry, err = fs.createFile(op.Parent, op.Name, op.Mode)
 	return err
 }
